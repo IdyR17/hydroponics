@@ -37,7 +37,7 @@ function SubmitForm() {
     e.preventDefault();
     // Check that the user entered a message and is signed in.
     if (this.name.value && this.email.value) {
-      this.database.ref('ContactInfo').push({
+      this.database.ref("ContactInfo/").push({
         name: this.name.value,
         email: this.email.value,
         message: this.message.value
