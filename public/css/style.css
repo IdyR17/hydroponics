@@ -51,7 +51,7 @@ label{
 }
 .logo-agileinfo h1 {
     font-size: 3em;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 .logo-agileinfo  h1 a{
 	color:#f44236;
@@ -455,7 +455,7 @@ div#services {
 }
 
 /* Shutter In Horizontal */
-/*-- w3layouts --*/
+
 /*-- agileits --*/
 a.hvr-shutter-in-horizontal {
   display: inline-block;
@@ -624,7 +624,7 @@ span.like {
 /*-- //model --*/  
 /*-- //news --*/ 
  
-/*-- count --*/
+/*-- count --
 .count {
     background: url(../images/bgc.jpg) no-repeat 0px 0px;
     background-size: cover;
@@ -699,9 +699,9 @@ h3.head {
 	color:#3f51b5;
 	margin-bottom: 0.3em;
 }
-/*-- //count --*/
+-- //count --*/
 
-/*-- testimonials --*/
+/*-- testimonials --*
 .agile_testimonials_grid p {
     color: #777;
     line-height: 2em;
@@ -732,7 +732,7 @@ h3.head {
 	font-size:14px;
 	color:#87b200;
 }
-/*--flexisel--*/
+/*--flexisel--*
 .flex-slider{	
 	background:#222227;
 	padding: 70px 0 165px 0;
@@ -767,7 +767,7 @@ h3.head {
 	cursor: pointer;
 	position: relative;
 }
-/*---- Nav ---*/
+/*---- Nav ---*
 .nbs-flexisel-nav-left, .nbs-flexisel-nav-right {
     width: 42px;
     height: 42px;
@@ -788,13 +788,17 @@ h3.head {
 .w3_agile_testimonials_grid_left img {
     border-radius: 50%;
 }
-/*--//flexisel--*/
+/*--//flexisel--*
 .agile_testimonials_grid {
     margin: 0 0em 2em;
 }
 /*-- //testimonials --*/
 
 /*-- galley --*/
+.nav-tabs li a{
+	color:#f44236;
+}
+
 .da-thumbs {
 	list-style: none;
 	position: relative;
@@ -923,8 +927,8 @@ h3.head {
 
 /*-- contact --*/
 .contact-us1-bottom form{
-	/* float: right; */ 
-	display: inline-block;
+	/* float: right;  */
+	 display: inline-block;
 	width:50%;
 }
 .contact-us1-bottom input[type="text"], .contact-us1-bottom input[type="email"], .contact-us1-bottom textarea {
