@@ -615,7 +615,8 @@ span.like {
 	position: relative;
 	height:80vh;
 }
-/* .modal-header span {
+/* IN CASE I WANT TO DO THE GUIDE IN HTML INSTEAD OF USING PDF
+ .modal-header span {
     font-size: 1.1em;
     color: #777;
     letter-spacing: 1px;
