@@ -65,10 +65,13 @@ app.use(express.static('public'));
 //         response.json(data)
 //     })
 // })
+
+const PORT = process.env.PORT || 3000
+
 app.get('/forum', function(req, res) {
     res.redirect('localhost:4567');
 });
 
-app.listen(3000, function() {
-    console.log('Example app listening on port 3000!')
+app.listen(PORT, function() {
+    console.log('Example app listening on port' + PORT + '!')
 })
