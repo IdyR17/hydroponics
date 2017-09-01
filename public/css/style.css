@@ -611,7 +611,11 @@ span.like {
     text-align: center;
     margin: 0.3em 0 1em;
 }
-.modal-header span {
+.guide{
+	position: relative;
+	height:80vh;
+}
+/* .modal-header span {
     font-size: 1.1em;
     color: #777;
     letter-spacing: 1px;
@@ -623,7 +627,7 @@ span.like {
 .modal-header img{
     float: left;
     width: 100%;
-}
+} */
 /*-- //model --*/  
 /*-- //news --*/ 
  
