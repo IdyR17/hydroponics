@@ -50,8 +50,11 @@ label{
 	float:left;
 }
 .logo-agileinfo h1 {
-    font-size: 3em;
+	font-size: 3em;
     /* text-transform: uppercase; */
+}
+.logo-agileinfo img{
+	vertical-align: bottom;
 }
 .logo-agileinfo  h1 a{
 	color:#f44236;
