@@ -15,39 +15,10 @@ app.use(bodyparser.json());
 app.use(bodyparser.urlencoded({ extended: false }));
 app.use(express.static('public'));
 
-const models = require('./models');
-
 const PORT = process.env.PORT || 3000
+const routes = require('./routes');
 
-app.get('/forum', function(req, res) {
-    res.redirect('localhost:4567');
-});
-
-app.post('/contactus', function(req, res) {
-    var mailOpts = req.body;
-
-    mailer.sendEmail({
-        to: mailOpts.email,
-        subject: "Thanks " + mailOpts.name + " for contacting us! <Hydroponics Team>",
-        from: "Hydroponics Inc. <growitin@jurhidy.com>",
-        text: "Thanks " + mailOpts.name + "for contacting us! We will stay in touch!",
-    }, function(err) {
-        if (err) return res.send('it failed');
-        return res.send(mailOpts.message);
-    });
-
-    // Do the mailer thingy in here
-});
-
-app.post('/suscribe', function(req, res) {
-    const email = new models.email({
-        email: req.body.email
-    }).save(function(err, _) {
-        if (err) return res.send('Didn\'t work');
-        return res.send('suscribed!');
-    });
-    // Do the suscribing thingy in here
-});
+app.use('/', routes);
 
 app.listen(PORT, function() {
     console.log('Example app listening on port' + PORT + '!')

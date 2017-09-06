@@ -16,8 +16,6 @@ const sendEmail = function(mailOptions, callback) {
     // return transporter.sendMail(mailOptions, callback);
 
     const verifyMail = (err, success) => {
-        console.log("ERR : " + err);
-        console.log("SUC : " + success);
 
         if (err) return callback('Error verifying connection to SMTP server', err);
 

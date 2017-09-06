@@ -6,4 +6,4 @@ const email = mongoose.Schema({
     email: types.String
 });
 
-exports.email = mongoose.model('email', email);
+exports.Email = mongoose.model('email', email);
