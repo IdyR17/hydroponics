@@ -419,7 +419,7 @@ section .da-thumbs,
 .agile_testimonials_grids,
 .agileinfo-team-grids,
 .contact-us1-bottom {
-    margin-top: 4em;
+    margin-top: 2.8em;
 }
 
 .about-img {
@@ -789,200 +789,7 @@ a.frist {
     height: 80vh;
 }
 
-
-/* IN CASE I WANT TO DO THE GUIDE IN HTML INSTEAD OF USING PDF
- .modal-header span {
-    font-size: 1.1em;
-    color: #777;
-    letter-spacing: 1px;
-    line-height: 33px;
-    padding-bottom: 16px;
-    display: inline-block;
-    margin-top: 1em;
-}
-
-.modal-header img {
-    float: left;
-    width: 100%;
-} */
-
-
-/*-- //model --*/
-
-
-/*-- //news --*/
-
-
-/*-- count --
-.count {
-    background: url(../images/bgc.jpg) no-repeat 0px 0px;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -ms-background-size: cover;
-    min-height: 306px;
-    padding: 38px 0px;
-}
-.agile_count_grid {
-    left: 80px;
-    top: 63px;
-}
-.agile_count_grid_left{
-	float:left;
-}
-.agile_count_grid_left span{
-	color:#fff;
-}
-.agile_count_grid_left span, .agile_count_grid_right p {
-    font-size: 2.1em;
-    letter-spacing: 1px;
-}
-.agile_count_grid_right {
-    float: left;
-}
-.agile_count_grid_right p {
-    color: white;
-}
-.agile_count_grid_right {
-    background: #000;
-    width: 60px;
-    height: 60px;
-    text-align: center;
-    line-height: 1.5em;
-    transform: rotate(45deg);
-    margin: 0em 1.4em 2em;
-}
-.agile_count_grid_right p {
-    transform: rotate(-45deg);
-    padding: 16px 1px;
-}
-.agile_count_grid h3 {
-    font-size: 1.3em;
-    color: white;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    position: relative;
-    padding: 1em 0 1em;
-    text-align: center;
-    right: 28%;
-}
-.agile_count_grid h3:after {
-    content: '';
-    background: #f44236;
-    height: 3px;
-    width: 18%;
-    position: absolute;
-    left: 39%;
-    top: 0%;
-}
-.agile_count_grid_left span {
-    color: #f44236;
-    top: -53px;
-    left: 35px;
-}
-h3.head {
-    font-size: 2.5em;
-    text-transform: uppercase;
-    font-weight: bold;
-	color:#3f51b5;
-	margin-bottom: 0.3em;
-}
--- //count --*/
-
-
-/*-- testimonials --*
-.agile_testimonials_grid p {
-    color: #777;
-    line-height: 2em;
-    margin-bottom: 1em;
-    text-align: left;
-    font-size: 1em;
-}
-.w3_agile_testimonials_grid_right {
-    margin: 0em 1.5em 0 0;
-    text-align: right;
-    float: left;
-    width: 70%;
-    padding: 4em;
-    background: #f5f5f5;
-}
-.w3_agile_testimonials_grid {
-    float: left;
-    padding: 3.5em;
-}
-.w3_agile_testimonials_grid_right h4 {
-    font-size: 1.4em;
-    color: #f44236;
-    text-transform: uppercase;
-    font-weight: 600;
-    letter-spacing: 2px;
-}
-.w3_agile_testimonials_grid_right h5{
-	font-size:14px;
-	color:#87b200;
-}
-/*--flexisel--*
-.flex-slider{	
-	background:#222227;
-	padding: 70px 0 165px 0;
-}
-#flexiselDemo1 {
-	display: none;
-}
-.nbs-flexisel-container {
-	position: relative;
-	max-width: 100%;
-}
-.nbs-flexisel-ul {
-	position: relative;
-	width: 9999px;
-	margin: 0px;
-	padding: 0px;
-	list-style-type: none;
-}
-.nbs-flexisel-inner {
-	overflow: hidden;
-	margin: 0px auto;
-	padding:0em 0 0;
-}
-.nbs-flexisel-item {
-	float: left;
-	margin: 0;
-	padding: 0px;
-	position: relative;
-	line-height: 35px;
-}
-.nbs-flexisel-item > img {
-	cursor: pointer;
-	position: relative;
-}
-/*---- Nav ---*
-.nbs-flexisel-nav-left, .nbs-flexisel-nav-right {
-    width: 42px;
-    height: 42px;
-    position: absolute;
-    cursor: pointer;
-    z-index: 100;
-    background: url(../images/left1.png) no-repeat 2px 6px #000;
-    top: 96% !important;
-    border-radius: 5px;
-}
-.nbs-flexisel-nav-left {
-	left:71%;
-}
-.nbs-flexisel-nav-right {
-	right: 21%;
-    background:url(../images/right2.png) no-repeat 8px 6px #000;
-}
-.w3_agile_testimonials_grid_left img {
-    border-radius: 50%;
-}
-/*--//flexisel--*
-.agile_testimonials_grid {
-    margin: 0 0em 2em;
-}
-/*-- //testimonials --*/
+/*-- //Guide --*/
 
 
 /*-- galley --*/
@@ -1101,7 +908,7 @@ h3.head {
 .team-social-grids ul li a i.fa.fa-facebook,
 .team-social-grids ul li a i.fa.fa-twitter,
 .team-social-grids ul li a i.fa.fa-rss,
-.team-social-grids ul li a i.fa.fa-vk {
+.team-social-grids ul li a i.fa.fa-github {
     height: 40px;
     width: 40px;
     border: solid 2px #fff;
@@ -1135,9 +942,9 @@ h3.head {
     color: #FFFFFF;
 }
 
-.team-social-grids ul li a i.fa.fa-vk:hover {
-    border: solid 2px #45668e;
-    background: #45668e;
+.team-social-grids ul li a i.fa.fa-github:hover {
+    border: solid 2px #000;
+    background: #000;
     color: #FFFFFF;
 }
 
@@ -1148,9 +955,9 @@ h3.head {
 /*-- contact --*/
 
 .contact-us1-bottom form {
-    /* float: right;  */
-    display: inline-block;
-    width: 50%;
+    /* float: left; */
+    display: block;
+    
 }
 
 .contact-us1-bottom input[type="text"],
@@ -1158,7 +965,7 @@ h3.head {
 .contact-us1-bottom textarea {
     outline: none;
     padding: 10px 10px;
-    background: none;
+    background: #fff;
     color: #777;
     font-size: 1em;
     border: 1px solid #000;
@@ -1195,77 +1002,13 @@ h3.head {
     background: #4baf4f;
 }
 
-.home-radio-clock {
-    float: left;
-    width: 20%;
-    margin-left: 5em;
-}
-
-.home-radio-clock-right {
-    float: left;
-    width: 20%;
-}
-
-.home-radio-clock ul {
-    padding: 0;
-    margin: 0;
-}
-
-.home-radio-clock ul li {
-    padding-left: 4em;
-    color: #777;
-    font-size: 1em;
-    list-style-type: none;
-    margin: 0 0 1.5em;
-    letter-spacing: 1px;
-    text-align: left;
-}
-
-.home-radio-clock-right ul {
-    padding: 0;
-    margin: 0;
-}
-
-.home-radio-clock-right ul li {
-    color: #777;
-    font-size: 1em;
-    list-style-type: none;
-    letter-spacing: 1px;
-    text-align: left;
-}
-
-.home-radio-clock ul li i {
-    font-size: 1.5em;
-    left: -15px;
-    color: #4baf4f;
-    top: 6px;
-}
-
-.home-radio-clock-right ul li span {
-    display: block;
-}
-
-.home-radio-clock-right ul li.lst {
-    margin: 1em 0 2em;
-}
-
-.map {
-    margin: 3em 0 0;
-}
-
-.map iframe {
-    width: 100%;
-    min-height: 400px;
-}
-
-
 /*-- //contact --*/
 
 
 /*-- footer --*/
 
 .footer {
-    padding: 5em 0 4em;
+    padding: 2.5em 0 2em;
     background-color: rgb(16, 16, 16);
 }
 
@@ -1342,7 +1085,7 @@ section.social ul li a i {
     margin-top: 1.2em;
 }
 
-.footer-grids form input[type="email"] {
+.submit-email{
     width: 72%;
     padding: 9px 12px;
     font-size: 0.9em;

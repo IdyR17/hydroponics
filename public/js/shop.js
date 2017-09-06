@@ -1,4 +1,6 @@
-var li_item=function(image,){ `<li>
+
+
+var li_item=function(image,description,price){ `<li>
 <a href="images/g5.jpg" rel="" class="b-link-stripe b-animate-go  thickbox" title="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.">
 
     <img src="images/g5.jpg" alt="" />
