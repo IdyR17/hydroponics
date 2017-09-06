@@ -1,70 +1,21 @@
-// retrieving 
 const express = require('express');
-// const database = require('./database');
+
 const bodyparser = require('body-parser');
-// const jwtMiddleware = require('express-jwt');
-// const jwt = require('jsonwebtoken');
+const mongoose = require('mongoose');
+
 const app = express();
-// const jwtSecret = 'ilovelucy';
+
+const mailer = require('./mailer');
+
+mongoose.connect("mongodb://growitin:growitin17@ds127994.mlab.com:27994/growitin", function(err) {
+    if (err) console.log(err);
+});
 
 app.use(bodyparser.json());
+app.use(bodyparser.urlencoded({ extended: false }));
 app.use(express.static('public'));
 
-// registering '/login' route to the express app. e.g. www.google.com/login
-// app.post('/login', function(request, response){
-//     database.User.findAll({
-//         where: {
-//             email: request.body.email
-//         }
-//     }).then(function(data){
-//         const user = data[0].dataValues
-//         if (user.password === request.body.password) {
-//             const token = jwt.sign({
-//                 name: user.name,
-//                 admin: user.admin
-//             }, jwtSecret, {
-//                 expiresIn: 60 * 2
-//             })
-//             console.log(token)
-//             response.setHeader('Authorization', token.toString())
-//             response.json(token)
-//         } else {
-//             response.sendStatus(403)
-//         }
-//     })
-// })
-
-// // registering '/user' route. e.g. www.google.com/user
-// app.post('/user', function(request, response){
-//     console.log(request.method)
-//     console.log(request.headers)
-//     console.log(request.body)
-//     database.User.create({
-//         email: request.body.email,
-//         name: request.body.name,
-//         password: request.body.password,
-//         admin: false
-//     }).then(function(){
-//         response.sendStatus(201)
-//     })
-// })
-
-// // registering '/user' route. e.g. www.google.com/user
-// app.get('/baby-names', function(request, response) {
-//     database.babyName.findAll().then(function(data) {
-//         response.json(data)
-//     })
-// })
-
-// // registering '/baby-names/top-ten'.
-// app.get('/baby-names/top-ten', function(request, response) {
-//     database.babyName.findAll({
-//         order: [['count', 'DESC']],
-//         limit: 10
-//     }).then(function(data){
-//         response.json(data)
-//     })
-// })
+const models = require('./models');
 
 const PORT = process.env.PORT || 3000
 
@@ -72,6 +23,32 @@ app.get('/forum', function(req, res) {
     res.redirect('localhost:4567');
 });
 
+app.post('/contactus', function(req, res) {
+    var mailOpts = req.body;
+
+    mailer.sendEmail({
+        to: mailOpts.email,
+        subject: "Thanks " + mailOpts.name + " for contacting us! <Hydroponics Team>",
+        from: "Hydroponics Inc. <growitin@jurhidy.com>",
+        text: "Thanks " + mailOpts.name + "for contacting us! We will stay in touch!",
+    }, function(err) {
+        if (err) return res.send('it failed');
+        return res.send(mailOpts.message);
+    });
+
+    // Do the mailer thingy in here
+});
+
+app.post('/suscribe', function(req, res) {
+    const email = new models.email({
+        email: req.body.email
+    }).save(function(err, _) {
+        if (err) return res.send('Didn\'t work');
+        return res.send('suscribed!');
+    });
+    // Do the suscribing thingy in here
+});
+
 app.listen(PORT, function() {
     console.log('Example app listening on port' + PORT + '!')
-})
+});

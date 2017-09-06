@@ -216,7 +216,8 @@
                             <a href="#" data-toggle="modal" data-target="#myModal1">
                                 <h4>Window Herb Garden</h4>
                             </a>
-                            <p>This little system is perfect to place it in a window, like, in the kitchen. Growing those live fresh herb plants so you can have them on hand to add them to your dishes. If you have a window that gets a good amount of sunlight you have a great space grow them in, or you can use <a href="#shop">Growing Lights<a> </p>
+                            <p>This little system is perfect to place it in a window, like, in the kitchen. Growing those live fresh herb plants so you can have them on hand to add them to your dishes. If you have a window that gets a good amount of sunlight
+                                you have a great space grow them in, or you can use <a href="#shop">Growing Lights<a> </p>
                             <a href="#" data-toggle="modal" data-target="#myModal1" class="hvr-shutter-in-horizontal">See Instructions</a>
                         </div>
                     </div>
@@ -224,9 +225,9 @@
                         <a href="#" data-toggle="modal" data-target="#myModal2" class="date-in">
                             <img class="img-responsive mix-in" src="images/n2.jpg" alt="">
                             <div class="month-in">
-                                    <span class="month">Plans for</span>
-                                    <span class="day">DIY</span>
-                                    <span class="like">Window Herb Garden</span>
+                                <span class="month">Plans for</span>
+                                <span class="day">DIY</span>
+                                <span class="like">Window Herb Garden</span>
                             </div>
                         </a>
                         <div class="clearfix"> </div>
@@ -254,9 +255,9 @@
                         <a href="#" data-toggle="modal" data-target="#myModal3" class="date-in">
                             <img class="img-responsive mix-in" src="images/n3.jpg" alt="">
                             <div class="month-in">
-                                    <span class="month">Plans for</span>
-                                    <span class="day">DIY</span>
-                                    <span class="like">Window Herb Garden</span>
+                                <span class="month">Plans for</span>
+                                <span class="day">DIY</span>
+                                <span class="like">Window Herb Garden</span>
                             </div>
                         </a>
                         <div class="clearfix"> </div>
@@ -274,9 +275,9 @@
                         <a href="#" data-toggle="modal" data-target="#myModal4" class="date-in">
                             <img class="img-responsive mix-in" src="images/n4.jpg" alt="">
                             <div class="month-in">
-                                    <span class="month">Plans for</span>
-                                    <span class="day">DIY</span>
-                                    <span class="like">Window Herb Garden</span>
+                                <span class="month">Plans for</span>
+                                <span class="day">DIY</span>
+                                <span class="like">Window Herb Garden</span>
                             </div>
                         </a>
                         <div class="clearfix"> </div>
@@ -294,11 +295,11 @@
             <!-- Modal content-->
             <div class="modal-content">
                 <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>        
-                    <object class = 'guide' data="guides/windowgarden.pdf" type="application/pdf"width="100%" height="100%">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <object class='guide' data="guides/windowgarden.pdf" type="application/pdf" width="100%" height="100%">
                         <embed src="guides/windowgarden.pdf" type="application/pdf" />
                     </object>
-                
+
                     <!-- 
                     <h4>Blog Post</h4>
                     <h5>Lorem ipsum dolor sit amet</h5>
@@ -317,7 +318,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <object class = 'guide' data="guides/windowgarden.pdf" type="application/pdf"width="100%" height="100%">
+                    <object class='guide' data="guides/windowgarden.pdf" type="application/pdf" width="100%" height="100%">
                         <embed src="guides/windowgarden.pdf" type="application/pdf" />
                     </object>
                 </div>
@@ -333,7 +334,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <object class = 'guide' data="guides/windowgarden.pdf" type="application/pdf"width="100%" height="100%">
+                    <object class='guide' data="guides/windowgarden.pdf" type="application/pdf" width="100%" height="100%">
                         <embed src="guides/windowgarden.pdf" type="application/pdf" />
                     </object>
                 </div>
@@ -349,7 +350,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <object class = 'guide' data="guides/windowgarden.pdf" type="application/pdf"width="100%" height="100%">
+                    <object class='guide' data="guides/windowgarden.pdf" type="application/pdf" width="100%" height="100%">
                         <embed src="guides/windowgarden.pdf" type="application/pdf" />
                     </object>
                 </div>
@@ -502,7 +503,7 @@
 		</div> -->
         <div class="container">
             <div class="contact-us1-bottom w3layouts-agile">
-                <form action="#" method="post" id="contactForm">
+                <form id="contactForm">
                     <input type="text" placeholder="Name" name="name" required id="name">
                     <input type="email" placeholder="Email" name="email" required id="email">
                     <textarea placeholder="Message" name="message" required="" id="message"></textarea>
@@ -559,9 +560,9 @@
                 </div>
                 <div class="col-md-3 footer-grids w3l-agileits">
                     <h3>Newsletter</h3>
-                    <p>It was popularised in the 1960s with the release Ipsum.
+                    <p>It was popularized in the 1960s with the release Ipsum.
                         <p>
-                            <form action="#" method="post">
+                            <form id="suscribeForm">
                                 <input type="email" placeholder="Email" name="email" required="">
                                 <input type="submit" value="Go" />
                             </form>
@@ -633,7 +634,43 @@
                     $('.events').append("<li>after event fired.</li>");
                 }
             });
+            var contactForm = $("#contactForm");
+            var suscribeForm = $('#suscribeForm');
 
+            function getData(form) {
+                var data = {};
+                form.serializeArray().forEach(function(el) {
+                    data[el.name] = el.value;
+                });
+                return data;
+            }
+
+            function sendData(url, data, cb) {
+                $.ajax({
+                    url: url,
+                    method: "POST",
+                    data: data,
+                    success: cb
+                });
+            }
+
+            contactForm.submit(function(e) {
+                e.preventDefault();
+                var data = getData(contactForm);
+
+                sendData('/contactus', data, function(res) {
+                    console.log(res)
+                });
+            });
+
+            suscribeForm.submit(function(e) {
+                e.preventDefault();
+                var data = getData(suscribeForm);
+
+                sendData('/suscribe', data, function(res) {
+                    console.log(res);
+                })
+            });
         });
     </script>
     <!--//End-slider-script-->
