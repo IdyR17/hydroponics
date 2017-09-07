@@ -872,12 +872,12 @@ a.frist {
     color: #fff;
 }
 
-.wthree-team-grid img {
+.jurir-team-grid img {
     border-radius: 50%;
     width: 100%;
 }
 
-.wthree-team-grid h4 {
+.jurir-team-grid h4 {
     font-size: 1.5em;
     color: #4baf4f;
     margin: 1.5em 0 0;
@@ -885,7 +885,7 @@ a.frist {
     letter-spacing: 1px;
 }
 
-.wthree-team-grid p {
+.jurir-team-grid p {
     margin: 1em 0 1.5em;
     color: #efeded;
     font-size: .9em;
@@ -1305,7 +1305,7 @@ section.socialul li {
 }
 
 
-/*--wthree-agile--*/
+/*--jurir-agile--*/
 
 
 /*--agile-its--*/
@@ -1429,7 +1429,6 @@ section.socialul li {
     .about.juri-agileinfo,
     .services,
     .news-section,
-    .testimonials,
     .gallery.juri-agile,
     .team,
     .contact {
@@ -1448,7 +1447,6 @@ section.socialul li {
     .services-jrls-row,
     .news-left,
     section .da-thumbs,
-    .agile_testimonials_grids,
     .agileinfo-team-grids,
     .contact-us1-bottom {
         margin-top: 3.5em;
@@ -1538,13 +1536,10 @@ section.socialul li {
     .team-social-grids ul li a i.fa.fa-facebook,
     .team-social-grids ul li a i.fa.fa-twitter,
     .team-social-grids ul li a i.fa.fa-rss,
-    .team-social-grids ul li a i.fa.fa-vk {
+    .team-social-grids ul li a i.fa.fa-github {
         height: 37px;
         width: 37px;
         font-size: 0.95em;
-    }
-    .jr_agile_testimonials_grid {
-        padding: 2.5em;
     }
     .nbs-flexisel-nav-left,
     .nbs-flexisel-nav-right {
@@ -1555,22 +1550,8 @@ section.socialul li {
     .nbs-flexisel-nav-right {
         right: 19%;
     }
-    .map iframe {
-        min-height: 317px;
-    }
     .contact-us1-bottom input[type="email"] {
         margin: 0 0 0 0.8em;
-    }
-    .home-radio-clock {
-        width: 25%;
-        margin-left: 3em;
-    }
-    .jr_agile_testimonials_grid_right {
-        padding: 3.5em 4em;
-    }
-    .jr_agile_testimonials_grid_right h4 {
-        font-size: 1.35em;
-        letter-spacing: 1px;
     }
 }
 
@@ -1587,7 +1568,6 @@ section.socialul li {
     .about.juri-agileinfo,
     .services,
     .news-section,
-    .testimonials,
     .gallery.juri-agile,
     .team,
     .contact {
@@ -1597,7 +1577,6 @@ section.socialul li {
     .services-jrls-row,
     .news-left,
     section .da-thumbs,
-    .agile_testimonials_grids,
     .agileinfo-team-grids,
     .contact-us1-bottom {
         margin-top: 3em;
@@ -1650,7 +1629,7 @@ section.socialul li {
     }
     .red img,
     .news-left img,
-    .wthree-team-grid img {
+    .jurir-team-grid img {
         width: 100%;
     }
     .come {
@@ -1704,14 +1683,14 @@ section.socialul li {
     .da-thumbs li a div span {
         font-size: 0.89em;
     }
-    .col-md-3.wthree-team-grid {
+    .col-md-3.jurir-team-grid {
         float: left;
         width: 25%;
     }
     .team-social-grids ul li a i.fa.fa-facebook,
     .team-social-grids ul li a i.fa.fa-twitter,
     .team-social-grids ul li a i.fa.fa-rss,
-    .team-social-grids ul li a i.fa.fa-vk {
+    .team-social-grids ul li a i.fa.fa-github {
         height: 32px;
         width: 32px;
         font-size: 0.8em;
@@ -1719,42 +1698,15 @@ section.socialul li {
     .team-social-grids ul li {
         margin: 0 .2em 0 0;
     }
-    .wthree-team-grid h4 {
+    .jurir-team-grid h4 {
         font-size: 1.4em;
         letter-spacing: 0px;
-    }
-    .jr_agile_testimonials_grid {
-        padding: 2em 1.5em;
-    }
-    .agile_testimonials_grid p {
-        font-size: 0.95em;
-    }
-    .jr_agile_testimonials_grid_right {
-        padding: 2.5em 3em;
-    }
-    .jr_agile_testimonials_grid_right h4 {
-        font-size: 1.3em;
     }
     .nbs-flexisel-nav-left {
         left: 68%;
     }
     .contact-us1-bottom input[type="email"] {
         margin: 0 0 0 0.5em;
-    }
-    .home-radio-clock {
-        width: 25%;
-        margin-left: 0em;
-    }
-    .home-radio-clock-right {
-        float: left;
-        width: 25%;
-    }
-    .home-radio-clock ul li {
-        padding-left: 3.5em;
-        letter-spacing: 0px;
-    }
-    .home-radio-clock-right ul li {
-        letter-spacing: 0px;
     }
     .contact-us1-bottom textarea {
         min-height: 140px;
@@ -1805,9 +1757,6 @@ section.socialul li {
     .col-news-top .date-in .month-in .month {
         padding-top: 8.5em;
     }
-    .map iframe {
-        min-height: 280px;
-    }
     .agile_count_grid {
         width: 45%;
         left: 92px;
@@ -1851,7 +1800,6 @@ section.socialul li {
     .services-jrls-row,
     .news-left,
     section .da-thumbs,
-    .agile_testimonials_grids,
     .agileinfo-team-grids,
     .contact-us1-bottom {
         margin-top: 2.5em;
@@ -1912,7 +1860,6 @@ section.socialul li {
     .about.juri-agileinfo,
     .services,
     .news-section,
-    .testimonials,
     .gallery.juri-agile,
     .team,
     .contact {
@@ -1926,12 +1873,6 @@ section.socialul li {
     }
     .team-social-grids ul li {
         margin: 0 .1em 0 0;
-    }
-    .jr_agile_testimonials_grid {
-        padding: 1.5em 1em;
-    }
-    .jr_agile_testimonials_grid_right {
-        padding: 2em 2.5em;
     }
     .home-radio-clock-right ul li {
         font-size: 0.95em;
@@ -1947,7 +1888,7 @@ section.socialul li {
     .footer-grids h2 a {
         letter-spacing: 1px;
     }
-    .wthree-team-grid {
+    .jurir-team-grid {
         padding: 0 .8em;
     }
 }
@@ -2031,11 +1972,11 @@ section.socialul li {
         font-size: 0.85em;
         margin: 2px 20px 0px 20px;
     }
-    .col-md-3.wthree-team-grid {
+    .col-md-3.jurir-team-grid {
         width: 50%;
     }
-    .wthree-team-grid:nth-child(3),
-    .wthree-team-grid:nth-child(4) {
+    .jurir-team-grid:nth-child(3),
+    .jurir-team-grid:nth-child(4) {
         margin-top: 3em;
     }
     .team-social-grids ul li {
@@ -2044,47 +1985,21 @@ section.socialul li {
     .team-social-grids ul li a i.fa.fa-facebook,
     .team-social-grids ul li a i.fa.fa-twitter,
     .team-social-grids ul li a i.fa.fa-rss,
-    .team-social-grids ul li a i.fa.fa-vk {
+    .team-social-grids ul li a i.fa.fa-github {
         height: 40px;
         width: 40px;
         font-size: 1em;
     }
-    .jr_agile_testimonials_grid {
-        padding: 1.5em 0.5em;
-    }
-    .agile_testimonials_grid p {
-        font-size: 0.9em;
-    }
-    .jr_agile_testimonials_grid_right h4 {
-        font-size: 1.2em;
-    }
+
     .nbs-flexisel-nav-left {
         left: 66.5%;
     }
-    .map iframe {
-        min-height: 250px;
-    }
+
     .contact-us1-bottom form {
         width: 100%;
     }
     .contact-us1-bottom input[type="email"] {
         margin: 0 0 0 1em;
-    }
-    .home-radio-clock {
-        width: 31%;
-    }
-    .home-radio-clock-right {
-        width: 50%;
-    }
-    .home-radio-clock,
-    .home-radio-clock-right {
-        margin-top: 2em;
-    }
-    .home-radio-clock ul li {
-        font-size: 1em;
-    }
-    .home-radio-clock-right ul li {
-        font-size: 1em;
     }
     .agile_count_grid_right {
         margin: 0em 8.7em 2em 6.5em;
@@ -2115,9 +2030,6 @@ section.socialul li {
     }
     .modal-header h4 {
         font-size: 1.8em;
-    }
-    .jr_agile_testimonials_grid {
-        padding: 1.5em 0.4em;
     }
     .nbs-flexisel-nav-left {
         left: 66%;
@@ -2171,7 +2083,6 @@ section.socialul li {
     .services-jrls-row,
     .news-left,
     section .da-thumbs,
-    .agile_testimonials_grids,
     .agileinfo-team-grids,
     .contact-us1-bottom {
         margin-top: 2em;
@@ -2191,15 +2102,9 @@ section.socialul li {
     .da-thumbs li a div span {
         font-size: 0.73em;
     }
-    .jr_agile_testimonials_grid_right {
-        padding: 1.5em 2em;
-        margin: 0em 0.5em 0 0;
-    }
+
     .nbs-flexisel-nav-left {
         left: 65%;
-    }
-    .jr_agile_testimonials_grid {
-        padding: 1.5em 0.3em;
     }
     .footer-grids p {
         color: #999;
@@ -2271,28 +2176,11 @@ section.socialul li {
         font-size: 0.85em;
         margin: 8px 20px 0px 20px;
     }
-    .jr_agile_testimonials_grid {
-        padding: 1.5em 0.2em;
-    }
-    .jr_agile_testimonials_grid_right {
-        padding: 1.5em 2em;
-        margin: 0em 0em 0 0;
-    }
-    .agile_testimonials_grid p {
-        font-size: 0.85em;
-    }
-    .jr_agile_testimonials_grid_right h4 {
-        font-size: 1.15em;
-    }
+
     .nbs-flexisel-nav-left {
         left: 64%;
     }
-    .map iframe {
-        min-height: 235px;
-    }
-    .home-radio-clock {
-        width: 36%;
-    }
+
     .footer-grids p {
         letter-spacing: 0px;
     }
@@ -2357,7 +2245,6 @@ section.socialul li {
     .about.juri-agileinfo,
     .services,
     .news-section,
-    .testimonials,
     .gallery.juri-agile,
     .team,
     .contact {
@@ -2376,7 +2263,6 @@ section.socialul li {
     .services-jrls-row,
     .news-left,
     section .da-thumbs,
-    .agile_testimonials_grids,
     .agileinfo-team-grids,
     .contact-us1-bottom {
         margin-top: 1.5em;
@@ -2458,24 +2344,15 @@ section.socialul li {
     .team-social-grids ul li a i.fa.fa-facebook,
     .team-social-grids ul li a i.fa.fa-twitter,
     .team-social-grids ul li a i.fa.fa-rss,
-    .team-social-grids ul li a i.fa.fa-vk {
+    .team-social-grids ul li a i.fa.fa-github {
         height: 35px;
         width: 35px;
         font-size: 0.9em;
     }
-    .wthree-team-grid h4 {
+    .jurir-team-grid h4 {
         font-size: 1.35em;
     }
-    .jr_agile_testimonials_grid {
-        padding: 3em 1.5em;
-        width: 30%;
-    }
-    .agile_testimonials_grid p {
-        font-size: 0.8em;
-    }
-    .jr_agile_testimonials_grid_right h4 {
-        font-size: 1em;
-    }
+
     .nbs-flexisel-nav-left {
         left: 61%;
     }
@@ -2487,15 +2364,7 @@ section.socialul li {
         font-size: 14px;
         width: 27%;
     }
-    .home-radio-clock ul li {
-        font-size: 0.95em;
-    }
-    .home-radio-clock-right ul li {
-        font-size: 0.95em;
-    }
-    .home-radio-clock {
-        width: 40%;
-    }
+
     .footer-grids.jrl-agileits {
         width: 100%;
     }
@@ -2591,7 +2460,6 @@ section.socialul li {
     .about.juri-agileinfo,
     .services,
     .news-section,
-    .testimonials,
     .gallery.juri-agile,
     .team,
     .contact {
@@ -2611,21 +2479,16 @@ section.socialul li {
     .team-social-grids ul li a i.fa.fa-facebook,
     .team-social-grids ul li a i.fa.fa-twitter,
     .team-social-grids ul li a i.fa.fa-rss,
-    .team-social-grids ul li a i.fa.fa-vk {
+    .team-social-grids ul li a i.fa.fa-github {
         height: 31px;
         width: 31px;
         font-size: 0.85em;
     }
-    .wthree-team-grid h4 {
+    .jurir-team-grid h4 {
         font-size: 1.2em;
         margin: 1.2em 0 0;
     }
-    .jr_agile_testimonials_grid {
-        padding: 4em 1em;
-    }
-    .jr_agile_testimonials_grid_right {
-        padding: 1em 1.2em;
-    }
+
     .nbs-flexisel-nav-left {
         left: 56%;
     }
@@ -2633,12 +2496,7 @@ section.socialul li {
     .nbs-flexisel-nav-right {
         top: 97% !important;
     }
-    .map {
-        margin: 2em 0 0;
-    }
-    .map iframe {
-        min-height: 210px;
-    }
+
     .contact-us1-bottom input[type="text"],
     .contact-us1-bottom input[type="email"],
     .contact-us1-bottom textarea {
@@ -2740,23 +2598,23 @@ section.socialul li {
         font-size: 0.9em;
         margin: 14px 20px 0px 20px;
     }
-    .col-md-3.wthree-team-grid {
+    .col-md-3.jurir-team-grid {
         width: 100%;
     }
     .team-social-grids ul li a i.fa.fa-facebook,
     .team-social-grids ul li a i.fa.fa-twitter,
     .team-social-grids ul li a i.fa.fa-rss,
-    .team-social-grids ul li a i.fa.fa-vk {
+    .team-social-grids ul li a i.fa.fa-github {
         height: 40px;
         width: 40px;
         font-size: 1em;
     }
-    .wthree-team-grid h4 {
+    .jurir-team-grid h4 {
         font-size: 1.5em;
     }
-    .wthree-team-grid:nth-child(3),
-    .wthree-team-grid:nth-child(4),
-    .wthree-team-grid:nth-child(2) {
+    .jurir-team-grid:nth-child(3),
+    .jurir-team-grid:nth-child(4),
+    .jurir-team-grid:nth-child(2) {
         margin-top: 2.5em;
     }
     .col-news-top .date-in .month-in .day {
@@ -2854,7 +2712,6 @@ section.socialul li {
     .about.juri-agileinfo,
     .services,
     .news-section,
-    .testimonials,
     .gallery.juri-agile,
     .team,
     .contact {
@@ -2873,7 +2730,6 @@ section.socialul li {
     .services-jrls-row,
     .news-left,
     section .da-thumbs,
-    .agile_testimonials_grids,
     .agileinfo-team-grids,
     .contact-us1-bottom {
         margin-top: 1em;
@@ -2924,13 +2780,13 @@ section.socialul li {
         font-size: 0.85em;
         margin: 12px 20px 0px 20px;
     }
-    .wthree-team-grid h4 {
+    .jurir-team-grid h4 {
         font-size: 1.4em;
     }
     .team-social-grids ul li a i.fa.fa-facebook,
     .team-social-grids ul li a i.fa.fa-twitter,
     .team-social-grids ul li a i.fa.fa-rss,
-    .team-social-grids ul li a i.fa.fa-vk {
+    .team-social-grids ul li a i.fa.fa-github {
         height: 35px;
         width: 35px;
         font-size: 0.9em;
@@ -2944,12 +2800,6 @@ section.socialul li {
     .nbs-flexisel-nav-left {
         left: 48%;
     }
-    .map {
-        margin: 1.5em 0 0;
-    }
-    .map iframe {
-        min-height: 170px;
-    }
     .contact-us1-bottom input[type="text"],
     .contact-us1-bottom input[type="email"],
     .contact-us1-bottom textarea {
@@ -2962,18 +2812,7 @@ section.socialul li {
         font-size: 13px;
         width: 33%;
     }
-    .home-radio-clock ul li {
-        font-size: 0.85em;
-    }
-    .home-radio-clock-right ul li {
-        font-size: 0.85em;
-    }
-    .home-radio-clock {
-        width: 52%;
-    }
-    .home-radio-clock-right {
-        width: 48%;
-    }
+
     .footer {
         padding: 1.5em 0 0.5em;
     }
