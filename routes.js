@@ -14,8 +14,8 @@ router.post('/contactus', function(req, res) {
     mailer.sendEmail({
         to: mailOpts.email,
         subject: "Thanks " + mailOpts.name + " for contacting us! <Hydroponics Team>",
-        from: "Hydroponics Inc. <growitin@jurhidy.com>",
-        text: "Thanks " + mailOpts.name + "for contacting us! We will stay in touch!",
+        from: "GrowItIn Inc. <growitin@jurhidy.com>",
+        text: "Thanks " + mailOpts.name + " for contacting us! We will stay in touch!",
     }, function(err) {
         if (err) return res.send('it failed');
         return res.send(mailOpts.message);

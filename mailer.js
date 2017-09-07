@@ -8,7 +8,7 @@ const sendEmail = function(mailOptions, callback) {
         return callback('Error on options.', new Error('Error: No text or sender email has been added to options sent.'));
 
     if (!mailOptions.from)
-        mailOptions.from = "Hydroponics Inc. <jenky.nolasco@gmail.com>"; // change this to default email
+        mailOptions.from = "GrowItIn Inc. <growitin@jurhidy.com>"; // change this to default email
 
     if (!mailOptions.subject)
         mailOptions.subject = 'Do not reply - Hydroponics Inc.'; // change this to default subject
