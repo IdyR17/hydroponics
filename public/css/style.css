@@ -385,11 +385,11 @@ label {
 
 /*-- welcome --*/
 
-.about.w3layouts-agileinfo,
+.about.juri-agileinfo,
 .services,
 .news-section,
 .testimonials,
-.gallery.w3layouts-agile,
+.gallery.juri-agile,
 .team,
 .contact {
     padding: 5em 0em;
@@ -401,9 +401,9 @@ label {
 }
 
 h3.top-about,
-h3.w3stitle,
+h3.jrstitle,
 h3.tittle,
-h3.w3l_head.w3l_head1,
+h3.jrl_head.jrl_head1,
 .gallery-top.wthee-agileinfo h3,
 .about-heading h3,
 .contact h3 {
@@ -413,7 +413,7 @@ h3.w3l_head.w3l_head1,
 }
 
 .about-top,
-.services-w3ls-row,
+.services-jrls-row,
 .news-left,
 section .da-thumbs,
 .agile_testimonials_grids,
@@ -1075,7 +1075,7 @@ section.social ul li a i {
     letter-spacing: .5px;
 }
 
-.footer-grids.w3l-agileits span {
+.footer-grids.jrl-agileits span {
     color: #444;
     font-size: 14px;
     letter-spacing: .8px;
@@ -1142,7 +1142,7 @@ section.social ul li a i {
     color: #ff0b00;
 }
 
-.top-w3ls a {
+.top-jrls a {
     color: #777;
     font-size: 14px;
     word-spacing: 1px;
@@ -1153,22 +1153,22 @@ section.social ul li a i {
     margin-top: 6px;
 }
 
-.top-w3ls a:hover {
+.top-jrls a:hover {
     color: #ffffff;
 }
 
-.top-w3ls a span {
+.top-jrls a span {
     margin-right: 4px;
 }
 
-.social-w3l ul li {
+.social-jrl ul li {
     display: block;
     font-weight: 600;
     margin: 1.5em 0em 1.8em;
     text-align: center;
 }
 
-.social-w3l ul li a {
+.social-jrl ul li a {
     display: block;
     color: #fff;
     text-decoration: none;
@@ -1180,49 +1180,49 @@ section.social ul li a i {
     line-height: 2em;
 }
 
-.social-w3l ul li a:hover {
+.social-jrl ul li a:hover {
     background: #fff;
     color: #f44236;
 }
 
-.social-w3l {
+.social-jrl {
     text-align: left;
     float: left;
     width: 26%;
 }
 
-.social-w3lr {
+.social-jrlr {
     float: right;
     width: 50%;
 }
 
-.social-w3l ul li a i {
+.social-jrl ul li a i {
     transform: rotate(-45deg);
     font-size: 16px;
 }
 
-.social-w3r ul li a {
+.social-jrr ul li a {
     color: #fff !important;
     letter-spacing: 1px;
 }
 
-.social-w3r ul li {
+.social-jrr ul li {
     display: block;
     margin: 2.8em 0em 2.5em;
 }
 
-.nav-w3-l {
+.nav-jr-l {
     float: left;
     width: 50%;
 }
 
-.nav-w3-r {
+.nav-jr-r {
     float: right;
     width: 50%;
 }
 
 
-/*--w3-agile--*/
+/*--jr-agile--*/
 
 
 /*--agileits--*/
@@ -1394,9 +1394,9 @@ section.socialul li {
         width: 41%;
     }
     h3.top-about,
-    h3.w3stitle,
+    h3.jrstitle,
     h3.tittle,
-    h3.w3l_head.w3l_head1,
+    h3.jrl_head.jrl_head1,
     .gallery-top.wthee-agileinfo h3,
     .about-heading h3,
     .contact h3 {
@@ -1426,26 +1426,26 @@ section.socialul li {
     .banner-text-info {
         margin: 10em auto 0;
     }
-    .about.w3layouts-agileinfo,
+    .about.juri-agileinfo,
     .services,
     .news-section,
     .testimonials,
-    .gallery.w3layouts-agile,
+    .gallery.juri-agile,
     .team,
     .contact {
         padding: 4em 0em;
     }
     h3.top-about,
-    h3.w3stitle,
+    h3.jrstitle,
     h3.tittle,
-    h3.w3l_head.w3l_head1,
+    h3.jrl_head.jrl_head1,
     .gallery-top.wthee-agileinfo h3,
     .about-heading h3,
     .contact h3 {
         font-size: 2.7em;
     }
     .about-top,
-    .services-w3ls-row,
+    .services-jrls-row,
     .news-left,
     section .da-thumbs,
     .agile_testimonials_grids,
@@ -1497,9 +1497,9 @@ section.socialul li {
         margin: 0.5em 0 0.7em;
     }
     h3.top-about,
-    h3.w3stitle,
+    h3.jrstitle,
     h3.tittle,
-    h3.w3l_head.w3l_head1,
+    h3.jrl_head.jrl_head1,
     .gallery-top.wthee-agileinfo h3,
     .about-heading h3,
     .contact h3 {
@@ -1543,7 +1543,7 @@ section.socialul li {
         width: 37px;
         font-size: 0.95em;
     }
-    .w3_agile_testimonials_grid {
+    .jr_agile_testimonials_grid {
         padding: 2.5em;
     }
     .nbs-flexisel-nav-left,
@@ -1565,10 +1565,10 @@ section.socialul li {
         width: 25%;
         margin-left: 3em;
     }
-    .w3_agile_testimonials_grid_right {
+    .jr_agile_testimonials_grid_right {
         padding: 3.5em 4em;
     }
-    .w3_agile_testimonials_grid_right h4 {
+    .jr_agile_testimonials_grid_right h4 {
         font-size: 1.35em;
         letter-spacing: 1px;
     }
@@ -1584,17 +1584,17 @@ section.socialul li {
     .banner-text h3.bnr-title {
         font-size: 2.45em;
     }
-    .about.w3layouts-agileinfo,
+    .about.juri-agileinfo,
     .services,
     .news-section,
     .testimonials,
-    .gallery.w3layouts-agile,
+    .gallery.juri-agile,
     .team,
     .contact {
         padding: 3.5em 0em;
     }
     .about-top,
-    .services-w3ls-row,
+    .services-jrls-row,
     .news-left,
     section .da-thumbs,
     .agile_testimonials_grids,
@@ -1609,9 +1609,9 @@ section.socialul li {
         padding: 0em 0em 8.5em;
     }
     h3.top-about,
-    h3.w3stitle,
+    h3.jrstitle,
     h3.tittle,
-    h3.w3l_head.w3l_head1,
+    h3.jrl_head.jrl_head1,
     .gallery-top.wthee-agileinfo h3,
     .about-heading h3,
     .contact h3 {
@@ -1662,7 +1662,7 @@ section.socialul li {
     .about-wel p {
         margin: 0.8em 0 1.5em;
     }
-    .services-grid.agileits-w3layouts {
+    .services-grid.agileits-juri {
         float: left;
         width: 33%;
     }
@@ -1723,16 +1723,16 @@ section.socialul li {
         font-size: 1.4em;
         letter-spacing: 0px;
     }
-    .w3_agile_testimonials_grid {
+    .jr_agile_testimonials_grid {
         padding: 2em 1.5em;
     }
     .agile_testimonials_grid p {
         font-size: 0.95em;
     }
-    .w3_agile_testimonials_grid_right {
+    .jr_agile_testimonials_grid_right {
         padding: 2.5em 3em;
     }
-    .w3_agile_testimonials_grid_right h4 {
+    .jr_agile_testimonials_grid_right h4 {
         font-size: 1.3em;
     }
     .nbs-flexisel-nav-left {
@@ -1767,18 +1767,18 @@ section.socialul li {
         float: right;
         width: 50%;
     }
-    .footer-grids.w3l-agileits {
+    .footer-grids.jrl-agileits {
         float: left;
         width: 50%;
     }
-    .footer-grids.w3l-agileits:nth-child(3),
+    .footer-grids.jrl-agileits:nth-child(3),
     .footer-grids.social-agileits:nth-child(4) {
         margin-top: 2em;
     }
     .footer {
         padding: 3.5em 0 2em;
     }
-    .social-w3l {
+    .social-jrl {
         width: 20%;
     }
 }
@@ -1839,16 +1839,16 @@ section.socialul li {
         top: 43%;
     }
     h3.top-about,
-    h3.w3stitle,
+    h3.jrstitle,
     h3.tittle,
-    h3.w3l_head.w3l_head1,
+    h3.jrl_head.jrl_head1,
     .gallery-top.wthee-agileinfo h3,
     .about-heading h3,
     .contact h3 {
         font-size: 2.4em;
     }
     .about-top,
-    .services-w3ls-row,
+    .services-jrls-row,
     .news-left,
     section .da-thumbs,
     .agile_testimonials_grids,
@@ -1909,11 +1909,11 @@ section.socialul li {
         width: 53%;
         margin: 6.5em auto 0;
     }
-    .about.w3layouts-agileinfo,
+    .about.juri-agileinfo,
     .services,
     .news-section,
     .testimonials,
-    .gallery.w3layouts-agile,
+    .gallery.juri-agile,
     .team,
     .contact {
         padding: 3em 0em;
@@ -1927,10 +1927,10 @@ section.socialul li {
     .team-social-grids ul li {
         margin: 0 .1em 0 0;
     }
-    .w3_agile_testimonials_grid {
+    .jr_agile_testimonials_grid {
         padding: 1.5em 1em;
     }
-    .w3_agile_testimonials_grid_right {
+    .jr_agile_testimonials_grid_right {
         padding: 2em 2.5em;
     }
     .home-radio-clock-right ul li {
@@ -1985,9 +1985,9 @@ section.socialul li {
         top: 44%;
     }
     h3.top-about,
-    h3.w3stitle,
+    h3.jrstitle,
     h3.tittle,
-    h3.w3l_head.w3l_head1,
+    h3.jrl_head.jrl_head1,
     .gallery-top.wthee-agileinfo h3,
     .about-heading h3,
     .contact h3 {
@@ -2049,13 +2049,13 @@ section.socialul li {
         width: 40px;
         font-size: 1em;
     }
-    .w3_agile_testimonials_grid {
+    .jr_agile_testimonials_grid {
         padding: 1.5em 0.5em;
     }
     .agile_testimonials_grid p {
         font-size: 0.9em;
     }
-    .w3_agile_testimonials_grid_right h4 {
+    .jr_agile_testimonials_grid_right h4 {
         font-size: 1.2em;
     }
     .nbs-flexisel-nav-left {
@@ -2116,7 +2116,7 @@ section.socialul li {
     .modal-header h4 {
         font-size: 1.8em;
     }
-    .w3_agile_testimonials_grid {
+    .jr_agile_testimonials_grid {
         padding: 1.5em 0.4em;
     }
     .nbs-flexisel-nav-left {
@@ -2168,7 +2168,7 @@ section.socialul li {
         padding: 0em 0em 5em;
     }
     .about-top,
-    .services-w3ls-row,
+    .services-jrls-row,
     .news-left,
     section .da-thumbs,
     .agile_testimonials_grids,
@@ -2191,14 +2191,14 @@ section.socialul li {
     .da-thumbs li a div span {
         font-size: 0.73em;
     }
-    .w3_agile_testimonials_grid_right {
+    .jr_agile_testimonials_grid_right {
         padding: 1.5em 2em;
         margin: 0em 0.5em 0 0;
     }
     .nbs-flexisel-nav-left {
         left: 65%;
     }
-    .w3_agile_testimonials_grid {
+    .jr_agile_testimonials_grid {
         padding: 1.5em 0.3em;
     }
     .footer-grids p {
@@ -2234,9 +2234,9 @@ section.socialul li {
         right: 8%;
     }
     h3.top-about,
-    h3.w3stitle,
+    h3.jrstitle,
     h3.tittle,
-    h3.w3l_head.w3l_head1,
+    h3.jrl_head.jrl_head1,
     .gallery-top.wthee-agileinfo h3,
     .about-heading h3,
     .contact h3 {
@@ -2271,17 +2271,17 @@ section.socialul li {
         font-size: 0.85em;
         margin: 8px 20px 0px 20px;
     }
-    .w3_agile_testimonials_grid {
+    .jr_agile_testimonials_grid {
         padding: 1.5em 0.2em;
     }
-    .w3_agile_testimonials_grid_right {
+    .jr_agile_testimonials_grid_right {
         padding: 1.5em 2em;
         margin: 0em 0em 0 0;
     }
     .agile_testimonials_grid p {
         font-size: 0.85em;
     }
-    .w3_agile_testimonials_grid_right h4 {
+    .jr_agile_testimonials_grid_right h4 {
         font-size: 1.15em;
     }
     .nbs-flexisel-nav-left {
@@ -2296,7 +2296,7 @@ section.socialul li {
     .footer-grids p {
         letter-spacing: 0px;
     }
-    .social-w3l {
+    .social-jrl {
         width: 27%;
     }
     .map {
@@ -2354,26 +2354,26 @@ section.socialul li {
     .callbacks_nav {
         top: 40%;
     }
-    .about.w3layouts-agileinfo,
+    .about.juri-agileinfo,
     .services,
     .news-section,
     .testimonials,
-    .gallery.w3layouts-agile,
+    .gallery.juri-agile,
     .team,
     .contact {
         padding: 2.5em 0em;
     }
     h3.top-about,
-    h3.w3stitle,
+    h3.jrstitle,
     h3.tittle,
-    h3.w3l_head.w3l_head1,
+    h3.jrl_head.jrl_head1,
     .gallery-top.wthee-agileinfo h3,
     .about-heading h3,
     .contact h3 {
         font-size: 2em;
     }
     .about-top,
-    .services-w3ls-row,
+    .services-jrls-row,
     .news-left,
     section .da-thumbs,
     .agile_testimonials_grids,
@@ -2394,14 +2394,14 @@ section.socialul li {
     .about-wel ul li a {
         font-size: 0.88em;
     }
-    .services-grid.agileits-w3layouts {
+    .services-grid.agileits-juri {
         width: 100%;
     }
     .services-grid p {
         font-size: 0.9em;
     }
-    .services-grid.agileits-w3layouts:nth-child(2),
-    .services-grid.agileits-w3layouts:nth-child(3) {
+    .services-grid.agileits-juri:nth-child(2),
+    .services-grid.agileits-juri:nth-child(3) {
         margin-top: 1.5em;
     }
     .col-news-top .date-in .month-in {
@@ -2466,14 +2466,14 @@ section.socialul li {
     .wthree-team-grid h4 {
         font-size: 1.35em;
     }
-    .w3_agile_testimonials_grid {
+    .jr_agile_testimonials_grid {
         padding: 3em 1.5em;
         width: 30%;
     }
     .agile_testimonials_grid p {
         font-size: 0.8em;
     }
-    .w3_agile_testimonials_grid_right h4 {
+    .jr_agile_testimonials_grid_right h4 {
         font-size: 1em;
     }
     .nbs-flexisel-nav-left {
@@ -2496,18 +2496,18 @@ section.socialul li {
     .home-radio-clock {
         width: 40%;
     }
-    .footer-grids.w3l-agileits {
+    .footer-grids.jrl-agileits {
         width: 100%;
     }
     .footer-grids.social-agileits {
         width: 100%;
     }
-    .footer-grids.w3l-agileits:nth-child(3),
+    .footer-grids.jrl-agileits:nth-child(3),
     .footer-grids.social-agileits:nth-child(4),
-    .footer-grids.w3l-agileits:nth-child(2) {
+    .footer-grids.jrl-agileits:nth-child(2) {
         margin-top: 1em;
     }
-    .social-w3l {
+    .social-jrl {
         width: 18%;
     }
     .copy-section p {
@@ -2580,19 +2580,19 @@ section.socialul li {
         margin: 0em 2.4em 2em;
     }
     h3.top-about,
-    h3.w3stitle,
+    h3.jrstitle,
     h3.tittle,
-    h3.w3l_head.w3l_head1,
+    h3.jrl_head.jrl_head1,
     .gallery-top.wthee-agileinfo h3,
     .about-heading h3,
     .contact h3 {
         font-size: 1.9em;
     }
-    .about.w3layouts-agileinfo,
+    .about.juri-agileinfo,
     .services,
     .news-section,
     .testimonials,
-    .gallery.w3layouts-agile,
+    .gallery.juri-agile,
     .team,
     .contact {
         padding: 2em 0em;
@@ -2620,10 +2620,10 @@ section.socialul li {
         font-size: 1.2em;
         margin: 1.2em 0 0;
     }
-    .w3_agile_testimonials_grid {
+    .jr_agile_testimonials_grid {
         padding: 4em 1em;
     }
-    .w3_agile_testimonials_grid_right {
+    .jr_agile_testimonials_grid_right {
         padding: 1em 1.2em;
     }
     .nbs-flexisel-nav-left {
@@ -2656,7 +2656,7 @@ section.socialul li {
     .footer h3 {
         font-size: 1.2em;
     }
-    .social-w3l {
+    .social-jrl {
         width: 20%;
     }
     .copy-section p {
@@ -2851,26 +2851,26 @@ section.socialul li {
     .center-container {
         padding: 0em 0em 1.3em;
     }
-    .about.w3layouts-agileinfo,
+    .about.juri-agileinfo,
     .services,
     .news-section,
     .testimonials,
-    .gallery.w3layouts-agile,
+    .gallery.juri-agile,
     .team,
     .contact {
         padding: 1.5em 0em;
     }
     h3.top-about,
-    h3.w3stitle,
+    h3.jrstitle,
     h3.tittle,
-    h3.w3l_head.w3l_head1,
+    h3.jrl_head.jrl_head1,
     .gallery-top.wthee-agileinfo h3,
     .about-heading h3,
     .contact h3 {
         font-size: 1.7em;
     }
     .about-top,
-    .services-w3ls-row,
+    .services-jrls-row,
     .news-left,
     section .da-thumbs,
     .agile_testimonials_grids,
@@ -2938,7 +2938,7 @@ section.socialul li {
     .agile_testimonials_grid p {
         font-size: 0.7em;
     }
-    .w3_agile_testimonials_grid_right h4 {
+    .jr_agile_testimonials_grid_right h4 {
         font-size: 0.9em;
     }
     .nbs-flexisel-nav-left {
@@ -2984,7 +2984,7 @@ section.socialul li {
     .footer h3 {
         font-size: 1.1em;
     }
-    .social-w3l {
+    .social-jrl {
         width: 26%;
     }
     .footer-grids ul li a {

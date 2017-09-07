@@ -63,7 +63,7 @@ var cart_item_3 = '<li><iframe style="width:120px;height:240px;" marginwidth="0"
     '333333&title_color=0066c0&bg_color=ffffff"></iframe></li>';
 
 var cart_1 =
-    `<div class="gallery w3layouts-agile" id="gallery-1">
+    `<div class="gallery juri-agile" id="gallery-1">
         <div class="container">
             <section>
                 <ul id="da-thumbs" class="da-thumbs">
@@ -74,7 +74,7 @@ var cart_1 =
     </div>`;
 
 var cart_2 =
-    `<div class="gallery w3layouts-agile" id="gallery-2">
+    `<div class="gallery juri-agile" id="gallery-2">
         <div class="container">
             <section>
                 <ul id="da-thumbs" class="da-thumbs">
@@ -85,7 +85,7 @@ var cart_2 =
     </div>`;
 
 var cart_3 =
-    `<div class="gallery w3layouts-agile" id="gallery-3">
+    `<div class="gallery juri-agile" id="gallery-3">
         <div class="container">
             <section>
                 <ul id="da-thumbs" class="da-thumbs">
