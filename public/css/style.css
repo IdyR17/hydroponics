@@ -1369,7 +1369,18 @@ section.socialul li {
     filter: alpha(opacity=0);
 }
 
+.news-section {
+    background : #eee;
+}
 
+#what-to-grow{
+    padding : 3.8em;
+    color : #777;
+}
+
+.about-img img{
+    display : inline-block;
+}
 /*-- //bottom-to-top --*/
 
 

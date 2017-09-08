@@ -4,6 +4,11 @@ const mongoose = require('mongoose');
 const mailer = require('./mailer');
 const models = require('./models');
 
+models.Email.remove({}, function(err){
+    if(err) console.log(err);
+    else console.log('Table Email dropped!')
+})
+
 router.get('/forum', function(req, res) {
     res.redirect('localhost:4567');
 });
