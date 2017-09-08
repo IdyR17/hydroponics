@@ -46,12 +46,13 @@ h2.sub-title {
 
 p.banner-text-detail {
     text-transform: capitalize;
-    font-size: 30px;
+    font-size: 0.9em !important;
     /* font-weight: bolder; */
 }
 
 p.banner-text-detail span.emphasize-text {
-    color: red;
+    color: #4baf4f;
+    /* font-size : 1.4em !important; */
 }
 
 p {
@@ -860,7 +861,7 @@ a.frist {
 /*-- team --*/
 
 .team {
-    background: url(../images/bgt.jpg) no-repeat 0px 0px;
+    background: url(../images/bgc.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
