@@ -1382,6 +1382,14 @@ section.socialul li {
 .about-img img{
     display : inline-block;
 }
+
+.header-top-agile{
+    background : #222;
+}
+
+footer {
+    background : #222;
+}
 /*-- //bottom-to-top --*/
 
 
