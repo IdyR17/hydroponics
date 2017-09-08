@@ -2019,7 +2019,7 @@ footer {
         width: 100%;
     }
     .contact-us1-bottom input[type="email"] {
-        margin: 0 0 0 1em;
+        /* margin: 0 0 0 1em; */
     }
     .agile_count_grid_right {
         margin: 0em 8.7em 2em 6.5em;
@@ -2377,7 +2377,7 @@ footer {
         left: 61%;
     }
     .contact-us1-bottom input[type="email"] {
-        margin: 0 0 0 0.8em;
+        /* margin: 0 0 0 0.8em; */
     }
     .contact-us1-bottom input[type="submit"] {
         padding: 8px 0px;
