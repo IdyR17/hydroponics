@@ -1985,6 +1985,12 @@ footer {
         padding: 0 .8em;
     }
 }
+@media(max-width : 683px){
+    .contact-us1-bottom input{
+        width : 100% !important;
+        margin : 12px 0 0 !important;
+    }
+}
 
 @media(max-width: 667px) {
     .callbacks_nav {
