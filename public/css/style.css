@@ -79,11 +79,14 @@ label {
 }
 
 .logo-agileinfo {
-    width: 30%;
-    float: left;
+    padding: 0;
+    display: inline-block;
+    /* width: 30%;
+    float: left; */
 }
 
 .logo-agileinfo h1 {
+    width: 400px;
     font-size: 3em;
     /* text-transform: uppercase; */
 }
@@ -98,10 +101,10 @@ label {
 }
 
 .social-icons-agileits {
-    width: 70%;
-    float: right;
+    /* width: 70%; */
+    /* float: right; */
     text-align: right;
-    margin-top: 8px;
+    margin-top: 2vh;
 }
 
 .social-icons-agileits ul li {
@@ -241,6 +244,17 @@ label {
 .logo h1 a {
     color: #E3535D;
     text-decoration: none;
+}
+
+.logo-agileinfo h1 span {
+    font-size: 1.2em;
+    vertical-align: middle;
+}
+
+.logo-agileinfo h1 img {
+    margin-top: -10px;
+    vertical-align: middle;
+    width: 5vw;
 }
 
 .logo h1 a:hover {
@@ -790,6 +804,7 @@ a.frist {
     height: 80vh;
 }
 
+
 /*-- //Guide --*/
 
 
@@ -958,7 +973,6 @@ a.frist {
 .contact-us1-bottom form {
     /* float: left; */
     display: block;
-    
 }
 
 .contact-us1-bottom input[type="text"],
@@ -1002,6 +1016,7 @@ a.frist {
 .contact-us1-bottom input[type="submit"]:hover {
     background: #4baf4f;
 }
+
 
 /*-- //contact --*/
 
@@ -1086,7 +1101,7 @@ section.social ul li a i {
     margin-top: 1.2em;
 }
 
-.submit-email{
+.submit-email {
     width: 72%;
     padding: 9px 12px;
     font-size: 0.9em;
@@ -1371,25 +1386,27 @@ section.socialul li {
 }
 
 .news-section {
-    background : #eee;
+    background: #eee;
 }
 
-#what-to-grow{
-    padding : 3.8em;
-    color : #777;
+#what-to-grow {
+    padding: 3.8em;
+    color: #777;
 }
 
-.about-img img{
-    display : inline-block;
+.about-img img {
+    display: inline-block;
 }
 
-.header-top-agile{
-    background : #222;
+.header-top-agile {
+    background: #222;
 }
 
 footer {
-    background : #222;
+    background: #222;
 }
+
+
 /*-- //bottom-to-top --*/
 
 
@@ -1432,6 +1449,7 @@ footer {
 
 @media(max-width: 1280px) {
     .logo-agileinfo h1 {
+        width: 400px;
         font-size: 2.8em;
     }
     .center-container {
@@ -1580,7 +1598,12 @@ footer {
         left: 46px;
     }
     .logo-agileinfo h1 {
+        width: 400px;
         font-size: 2.7em;
+    }
+    .logo-agileinfo h1 img {
+        vertical-align: middle;
+        width: 5vw;
     }
     .banner-text h3.bnr-title {
         font-size: 2.45em;
@@ -1626,6 +1649,7 @@ footer {
         padding: 14px 15px;
     }
     .logo-agileinfo h1 {
+        width: 400px;
         font-size: 2.6em;
     }
     .banner-text h3.bnr-title {
@@ -1755,7 +1779,14 @@ footer {
     }
 }
 
-@media(max-width: 900px) {}
+@media(max-width: 900px) {
+    .logo-agileinfo h1 span {
+        font-size: 1em;
+    }
+    .social-icons-agileits{
+        margin-top : 1vh
+    }
+}
 
 @media(max-width: 800px) {
     .banner-text h3.bnr-title {
@@ -1785,6 +1816,7 @@ footer {
 
 @media(max-width: 768px) {
     .logo-agileinfo h1 {
+        width: 400px;
         font-size: 2.5em;
     }
     .social-icons-agileits ul li a {
@@ -1870,6 +1902,9 @@ footer {
 }
 
 @media(max-width: 736px) {
+    .logo-agileinfo h1 span {
+        font-size: 0.8em;
+    }
     .center-container {
         padding: 0em 0em 6.5em;
     }
@@ -2010,11 +2045,9 @@ footer {
         width: 40px;
         font-size: 1em;
     }
-
     .nbs-flexisel-nav-left {
         left: 66.5%;
     }
-
     .contact-us1-bottom form {
         width: 100%;
     }
@@ -2033,6 +2066,10 @@ footer {
 }
 
 @media(max-width: 640px) {
+    
+    .social-icons-agileits span.icon-text{
+        display :  none;
+    }
     .center-container {
         padding: 0em 0em 5.5em;
     }
@@ -2071,7 +2108,8 @@ footer {
 
 @media(max-width: 600px) {
     .logo-agileinfo h1 {
-        font-size: 2.3em;
+        /* width : 100%; */
+        /* font-size: 2.3em; */
     }
     .social-icons-agileits ul li {
         font-size: 0.95em;
@@ -2122,7 +2160,6 @@ footer {
     .da-thumbs li a div span {
         font-size: 0.73em;
     }
-
     .nbs-flexisel-nav-left {
         left: 65%;
     }
@@ -2144,7 +2181,13 @@ footer {
     }
 }
 
-@media(max-width: 568px) {
+@media(max-width: 578px) {
+
+
+    .logo-agileinfo h1 span {
+        font-size: 0.6em;
+    }
+
     .banner-text-info {
         margin: 4.4em auto 0;
         width: 57%;
@@ -2196,11 +2239,9 @@ footer {
         font-size: 0.85em;
         margin: 8px 20px 0px 20px;
     }
-
     .nbs-flexisel-nav-left {
         left: 64%;
     }
-
     .footer-grids p {
         letter-spacing: 0px;
     }
@@ -2215,10 +2256,20 @@ footer {
     }
 }
 
+@media(max-width:540px){
+    .social-icons-agileits .glyphicon{ 
+        font-size : 1.4em;
+    }
+}
+
 @media(max-width: 480px) {
     .logo-agileinfo h1 {
-        font-size: 2.2em;
+        width: 100%;
+        /* font-size: 2.2em; */
     }
+    /* .logo-agileinfo h1 span{
+        display: inline-block;
+    } */
     .social-icons-agileits ul li {
         font-size: 0.9em;
     }
@@ -2372,7 +2423,6 @@ footer {
     .jurir-team-grid h4 {
         font-size: 1.35em;
     }
-
     .nbs-flexisel-nav-left {
         left: 61%;
     }
@@ -2384,7 +2434,6 @@ footer {
         font-size: 14px;
         width: 27%;
     }
-
     .footer-grids.jrl-agileits {
         width: 100%;
     }
@@ -2408,17 +2457,22 @@ footer {
 }
 
 @media(max-width: 414px) {
-    .logo-agileinfo h1 {
+    /* .logo-agileinfo h1 {
+        width : 400px;
         font-size: 2em;
-    }
+    } */
+
     .logo-agileinfo {
-        width: 100%;
-        text-align: center;
+        /* width: 100%; */
+        /* text-align: center; */
         margin: 0 auto;
     }
+    .logo-agileinfo h1 img{
+        width: 7.5vw;
+    }
     .social-icons-agileits {
-        width: 100%;
-        text-align: center;
+        /* width: 100%; */
+        /* text-align: center; */
         margin: 9px 0px;
     }
     .banner-text-info {
@@ -2508,7 +2562,6 @@ footer {
         font-size: 1.2em;
         margin: 1.2em 0 0;
     }
-
     .nbs-flexisel-nav-left {
         left: 56%;
     }
@@ -2516,7 +2569,6 @@ footer {
     .nbs-flexisel-nav-right {
         top: 97% !important;
     }
-
     .contact-us1-bottom input[type="text"],
     .contact-us1-bottom input[type="email"],
     .contact-us1-bottom textarea {
@@ -2680,9 +2732,10 @@ footer {
     .social-icons-agileits ul li {
         font-size: 0.8em;
     }
-    .logo-agileinfo h1 {
+    /* .logo-agileinfo h1 {
+        width : 400px;
         font-size: 1.85em;
-    }
+    } */
     .social-icons-agileits {
         margin: 3px 0px;
     }
@@ -2832,7 +2885,6 @@ footer {
         font-size: 13px;
         width: 33%;
     }
-
     .footer {
         padding: 1.5em 0 0.5em;
     }
