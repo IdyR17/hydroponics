@@ -163,11 +163,11 @@ label {
 }
 
 .navbar-collapse {
-    background : rgba(0,0,0,0.7);
+    /* background : rgba(0,0,0,0.7);
     position: absolute;
     border : none;
     right : 0;
-    z-index : 6;
+    z-index : 6; */
     padding: 0;
 }
 
@@ -1904,6 +1904,13 @@ footer {
 } */
 
 @media(max-width: 767px) {
+    .navbar-collapse {
+        background : rgba(0,0,0,0.7);
+        position: absolute;
+        border : none;
+        right : 0;
+        z-index : 6;
+    }
     .navbar-default {
         float: right;
     }
