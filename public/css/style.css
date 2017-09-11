@@ -141,6 +141,16 @@ label {
     padding: 0;
 }
 
+
+/* Navigation */
+
+.navigation-background {
+    background-image: url('../images/hydro-generic.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position-y : -10%; */
+}
+
 .navbar-default {
     background-color: transparent;
     border: none;
@@ -1783,8 +1793,8 @@ footer {
     .logo-agileinfo h1 span {
         font-size: 1em;
     }
-    .social-icons-agileits{
-        margin-top : 1vh
+    .social-icons-agileits {
+        margin-top: 1vh
     }
 }
 
@@ -2066,9 +2076,8 @@ footer {
 }
 
 @media(max-width: 640px) {
-    
-    .social-icons-agileits span.icon-text{
-        display :  none;
+    .social-icons-agileits span.icon-text {
+        display: none;
     }
     .center-container {
         padding: 0em 0em 5.5em;
@@ -2182,12 +2191,9 @@ footer {
 }
 
 @media(max-width: 578px) {
-
-
     .logo-agileinfo h1 span {
         font-size: 0.6em;
     }
-
     .banner-text-info {
         margin: 4.4em auto 0;
         width: 57%;
@@ -2256,9 +2262,9 @@ footer {
     }
 }
 
-@media(max-width:540px){
-    .social-icons-agileits .glyphicon{ 
-        font-size : 1.4em;
+@media(max-width:540px) {
+    .social-icons-agileits .glyphicon {
+        font-size: 1.4em;
     }
 }
 
@@ -2461,13 +2467,12 @@ footer {
         width : 400px;
         font-size: 2em;
     } */
-
     .logo-agileinfo {
         /* width: 100%; */
         /* text-align: center; */
         margin: 0 auto;
     }
-    .logo-agileinfo h1 img{
+    .logo-agileinfo h1 img {
         width: 7.5vw;
     }
     .social-icons-agileits {
