@@ -74,7 +74,7 @@ label {
 /*--header --*/
 
 .header-top-agile {
-    background: #000;
+    /* background: #000; */
     padding: 16px 0 10px;
 }
 
@@ -83,6 +83,10 @@ label {
     display: inline-block;
     /* width: 30%;
     float: left; */
+}
+
+.logo-agileinfo span {
+    text-shadow: 2px 2px 2px #4baf4f;
 }
 
 .logo-agileinfo h1 {
@@ -133,7 +137,7 @@ label {
 }
 
 .header-bottom-agile {
-    background: #4baf4f;
+    /* background: #4baf4f; */
     padding: 5px 0px;
 }
 
@@ -154,11 +158,16 @@ label {
 .navbar-default {
     background-color: transparent;
     border: none;
-    float: left;
+    /* float: left; */
     margin: 0;
 }
 
 .navbar-collapse {
+    background : rgba(0,0,0,0.7);
+    position: absolute;
+    border : none;
+    right : 0;
+    z-index : 6;
     padding: 0;
 }
 
@@ -1409,7 +1418,8 @@ section.socialul li {
 }
 
 .header-top-agile {
-    background: #222;
+    /* background: rbga(0,0,0,0.21); */
+    background: rgba(0, 0, 0, 0.21);
 }
 
 footer {
@@ -1422,7 +1432,11 @@ footer {
 
 /*--responsive--*/
 
-@media(max-width: 1680px) {}
+@media(max-width: 1680px) {
+    .navbar-default {
+        float: left;
+    }
+}
 
 @media(max-width: 1600px) {}
 
@@ -1885,11 +1899,17 @@ footer {
         font-size: 1.35em;
     }
 }
+/* 
+@media(min-width:767px) {
+} */
 
 @media(max-width: 767px) {
-    .navbar-toggle {
-        float: left !important;
+    .navbar-default {
+        float: right;
     }
+    /* .navbar-toggle {
+        float: left !important;
+    } */
     .navbar-nav {
         margin: 0px 479px 0px 0px !important;
         width: 100%;
@@ -1903,6 +1923,7 @@ footer {
         background-color: #f44236 !important;
     }
     .navbar-default .navbar-toggle {
+        z-index : 10;
         border-color: #fff !important;
     }
     .navbar-default .navbar-toggle:hover,
