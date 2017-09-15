@@ -700,7 +700,7 @@ a.hvr-shutter-in-horizontal:active:before {
 }
 
 .col-bottom.two {
-    margin: 0 0 1.2em 0;
+    /* margin: 0 0 1.2em 0; */
 }
 
 .col-news-top .date-in {
@@ -735,8 +735,8 @@ a.hvr-shutter-in-horizontal:active:before {
     font-weight: 800;
     text-transform: uppercase;
     color: #ffffff;
-    top: 20%;
-    margin-top: -60px;
+    /* top: 20%; */
+    /* margin-top: -60px; */
     position: absolute;
     left: 0;
     right: 0;
@@ -1430,6 +1430,9 @@ footer {
     background: #222;
 }
 
+.show-responsive {
+    display : none;
+}
 
 /*-- //bottom-to-top --*/
 
@@ -1579,7 +1582,7 @@ footer {
         font-size: 1.6em;
     }
     .col-news-top .date-in .month-in {
-        margin-top: -48px;
+        /* margin-top: -48px; */
     }
     .col-news-top .date-in .month-in .month {
         padding-top: 4.5em;
@@ -1717,12 +1720,20 @@ footer {
         float: left;
         width: 33%;
     }
+    .show-responsive {
+        display : block;
+        margin: 2em 0 2.5em 0;
+    }
+    .show-normal {
+        display : none;
+    }
+
     .col-news-right,
     .col-news {
         width: 100%;
     }
     .col-news-top .date-in .month-in {
-        margin-top: -76px;
+        /* margin-top: -76px */
     }
     .col-news-top .date-in .month-in .month {
         padding-top: 8em;
@@ -2060,7 +2071,7 @@ footer {
         font-size: 1.5em;
     }
     .col-news-top .date-in .month-in {
-        margin-top: -67px;
+        /* margin-top: -67px; */
     }
     .col-news-top .date-in .month-in .month {
         padding-top: 7.2em;
@@ -2136,7 +2147,7 @@ footer {
         margin: 5.5em auto 0;
     }
     .col-news-top .date-in .month-in {
-        margin-top: -64px;
+        /* margin-top: -64px; */
     }
     .modal-header h5 {
         font-size: 1.25em;
@@ -2214,7 +2225,7 @@ footer {
         font-size: 0.95em;
     }
     .col-news-top .date-in .month-in {
-        margin-top: -60px;
+        /* margin-top: -60px; */
     }
     .col-news-top .date-in .month-in .month {
         padding-top: 6em;
@@ -2279,7 +2290,7 @@ footer {
         top: 43%;
     }
     .col-news-top .date-in .month-in {
-        margin-top: -57px;
+        /* margin-top: -57px; */
     }
     .col-news-top .date-in .month-in .month {
         padding-top: 5em;
@@ -2433,7 +2444,7 @@ footer {
         margin-top: 1.5em;
     }
     .col-news-top .date-in .month-in {
-        margin-top: -46px;
+        /* margin-top: -46px; */
     }
     .col-news-top .date-in .month-in .month {
         padding-top: 3.6em;
@@ -2567,7 +2578,7 @@ footer {
         font-size: 0.8em;
     }
     .col-news-top .date-in .month-in {
-        margin-top: -37px;
+        /* margin-top: -37px; */
     }
     .col-news-top .date-in .month-in .month {
         padding-top: 2em;
@@ -2699,7 +2710,7 @@ footer {
         font-size: 0.8em;
     }
     .col-news-top .date-in .month-in {
-        margin-top: -34px;
+        /* margin-top: -34px; */
     }
     .col-news-top .date-in .month-in .month {
         padding-top: 1.5em;
@@ -2791,7 +2802,7 @@ footer {
         font-size: 0.73em;
     }
     .col-news-top .date-in .month-in {
-        margin-top: -33px;
+        /* margin-top: -33px; */
     }
     span.like {
         margin: 19px 0 0px;
@@ -2902,7 +2913,7 @@ footer {
         font-size: 1.4em;
     }
     .col-news-top .date-in .month-in {
-        margin-top: -27px;
+        /* margin-top: -27px; */
     }
     .col-news-top .date-in .month-in .day {
         font-size: 2.2em;
