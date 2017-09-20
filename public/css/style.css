@@ -1460,15 +1460,27 @@ SHOP SECTION
 }
 
 #shop .shop-modal {
-    color : #f44236;
-    font-size : 6em;
-    transition : text-shadow 0.2s linear;
+    height : 200px;
+    width : 200px;
+    margin : 0 auto;
+    background : #f44236;
+    border-radius : 50%;
+    color : white;
+    font-size : 4em;
+    transition : box-shadow 0.2s linear;
     cursor : pointer;
+    position: relative;
+}
+
+#shop .shop-modal .vertical-align {
+    position : absolute;
+    width : 100%;
+    margin-top : 1em;
 }
 
 /* #shop .shop-modal::after { */
 #shop .shop-modal:hover {
-    text-shadow : 0 0 15px #f44236;
+    box-shadow : 0 0 15px #f44236;
 }
 
 /* #shop .shop-modal[data-val='diy']:hover::after {
@@ -1911,7 +1923,7 @@ SHOP SECTION
 @media(max-width: 768px) {
 
     .buy-section, .diy-section {
-        height : 200px;
+        height : 300px;
     }
 
     .align-middle {
