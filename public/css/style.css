@@ -149,7 +149,6 @@ label {
     padding: 0;
 }
 
-
 /* Navigation */
 
 .navigation-background {
@@ -254,6 +253,7 @@ label {
 }
 
 .center-container {
+    height : 70vh;
     padding: 0em 0em 16em;
     background: rgba(0, 0, 0, 0.21);
 }
@@ -1426,8 +1426,7 @@ section.socialul li {
 }
 
 .header-top-agile {
-    /* background: rbga(0,0,0,0.21); */
-    background: rgba(0, 0, 0, 0.21);
+    /* background: rgba(0, 0, 0, 0.21); */
 }
 
 footer {
@@ -1567,7 +1566,18 @@ SHOP SECTION
     content : 'DIY';
     font-size : 6.9em;
 } */
+
+
+/***************************************
+HEADER 
+****************************************/
+.header-jr {
+    height: 20vh;
+    background: rgba(0,0,0,0.21);
+}
 /*-- //bottom-to-top --*/
+
+
 
 
 /*--responsive--*/
