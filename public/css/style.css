@@ -1438,6 +1438,10 @@ footer {
     display : none;
 }
 
+.scroll.contact-us {
+    color : #f44236 !important;
+}
+
 /**********************************
 SHOP SECTION
 **********************************/
