@@ -336,6 +336,78 @@
     </div>
     <!-- //WHAT CAN YOU GROW -->
 
+    <div class="" id="shop">
+        <div class="container">
+            <h3 class="tittle"> Do it on your own</h3>
+            <div class='diy-section col-xs-12 col-sm-6'>
+                <div class='align-middle'>
+                    <h4>You can try it on your own</h4>
+                    <!-- <div> -->
+                    <div class='shop-modal' data-val='diy' data-toggle="modal" data-target="#myModal6">
+                        <div class='vertical-align'>DIY</div>
+                    </div>
+                    <!-- <span class='shop-modal shadow' data-val='diy'>DIY</span> -->
+                    <!-- </div> -->
+                </div>
+            </div>
+
+            <div class='buy-section col-xs-12 col-sm-6'>
+                <div class='align-middle'>
+                    <h4>Buy the goods</h4>
+                    <!-- <div> -->
+                    <!-- <a href="#" > -->
+                    <div class='shop-modal' data-val='buy' data-toggle="modal" data-target="#myModal5">
+                        <div class='vertical-align'>BUY</div>
+                    </div>
+                    <!-- <span class='shop-modal shadow' data-val='buy'>BUY</span> -->
+                    <!-- </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- BUY MODAL -->
+    <div class="modal fade" id="myModal5" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header no-border">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <div class='flex-me'>
+                        <h2>WE WILL TELL YOU WHEN YOUR GARDEN IS AVAILABLE</h2>
+                        <p>Enter your email here, and you'll be the first to know when your garden will be available.</p>
+                        <form class="suscribeForm" data-purpose='buy'>
+                            <input type="email" class="submit-email" placeholder="Email" name="email" required="">
+                            <input type="submit" value="Go" />
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- DIY MODAL -->
+    <div class="modal fade" id="myModal6" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header no-border">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <div class='flex-me diy'>
+                        <h3>SUSCRIBE TO RECEIVE THE GUIDE</h3>
+                        <!-- <p>Enter your email here, and you'll be the first to know when your garden will be available.</p> -->
+                        <form class="suscribeForm" data-purpose='diy'>
+                            <input type="email" class="submit-email" placeholder="Email" name="email" required="">
+                            <input type="submit" value="Suscribe" />
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
     <!--DIY GUIDES-->
     <div class="news-section" id="news">
         <div class="container">
@@ -554,34 +626,6 @@
     <!-- //count-down -->
 
     <!-- SHOP! -->
-    <div class="" id="shop">
-        <div class="container">
-            <h3 class="tittle"> Do it on your own</h3>
-            <div class='diy-section col-xs-12 col-sm-6'>
-                <div class='align-middle'>
-                    <h4>You can try it on your own</h4>
-                    <!-- <div> -->
-                    <div class='shop-modal' data-val='diy'>
-                        <div class='vertical-align'>DIY</div>
-                    </div>
-                    <!-- <span class='shop-modal shadow' data-val='diy'>DIY</span> -->
-                    <!-- </div> -->
-                </div>
-            </div>
-
-            <div class='buy-section col-xs-12 col-sm-6'>
-                <div class='align-middle'>
-                    <h4>Buy the goods</h4>
-                    <!-- <div> -->
-                    <div class='shop-modal' data-val='buy'>
-                        <div class='vertical-align'>BUY</div>
-                    </div>
-                    <!-- <span class='shop-modal shadow' data-val='buy'>BUY</span> -->
-                    <!-- </div> -->
-                </div>
-            </div>
-        </div>
-    </div>
 
     <!-- <div class="gallery-top wthee-agileinfo text-center" id="shop"> -->
     <!-- <h3>SHOP!</h3> -->
@@ -692,7 +736,7 @@
                     <h3 class="text-center">Contact Us</h3>
                     <p>Questions? Suggestions? Send us a message!</p>
                     <div class="contact-us1-bottom juri-agile">
-                        <form action="#" method="post" id="contactForm">
+                        <form action="#" method="post" id="contactForm" data-purpose='contact-us'>
                             <input class='contact-form-input' type="text" placeholder="Name" name="name" required id="name">
                             <input class='contact-form-input' type="email" placeholder="Email" name="email" required id="email">
                             <textarea class='contact-form-input' placeholder="Message" name="message" required="" id="message"></textarea>
@@ -724,7 +768,7 @@
                     <p>Get in the loop!</p>
 
 
-                    <form id="suscribeForm">
+                    <form class="suscribeForm" data-purpose='suscribe'>
                         <input type="email" class="submit-email" placeholder="Email" name="email" required="">
                         <input type="submit" value="Go" />
                     </form>
@@ -735,14 +779,14 @@
                         <ul>
                             <li><a href="#" class="jurir_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                             <li><a href="#" class="jurir_twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                            <li><a href="#" class="jurir_dribbble"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+                            <!-- <li><a href="#" class="jurir_dribbble"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li> -->
                         </ul>
                     </div>
                     <div class="social-jrr">
                         <ul>
                             <li><a href="#">Facebook</a></li>
                             <li><a href="#">Twitter</a></li>
-                            <li><a href="#">Dribbble</a></li>
+                            <!-- <li><a href="#">Dribbble</a></li> -->
                         </ul>
                     </div>
                 </div>
@@ -782,6 +826,18 @@
     <script>
         // You can also use "$(window).load(function() {"
         $(function() {
+            // $('.shop-modal').on('click', function(e) {
+            //     $('#shop-modal').toggleClass('hidden');
+            // });
+
+            // $('#shop-modal *').on('click', function(e) {
+            //     e.stopPropagation();
+            // })
+
+            // $('#shop-modal').on('click', function(e) {
+            //     $('#shop-modal').toggleClass('hidden');
+            // });
+
             // Slideshow 3
             $("#slider3").responsiveSlides({
                 auto: true,
@@ -797,13 +853,16 @@
                 }
             });
             var contactForm = $("#contactForm");
-            var suscribeForm = $('#suscribeForm');
+            var suscribeForm = $('.suscribeForm');
 
             function getData(form) {
                 var data = {};
                 form.serializeArray().forEach(function(el) {
                     data[el.name] = el.value;
                 });
+                var purpose = form.data('purpose');
+                if (purpose) data.purpose = purpose;
+
                 return data;
             }
 
@@ -818,7 +877,7 @@
 
             contactForm.submit(function(e) {
                 e.preventDefault();
-                var data = getData(contactForm);
+                var data = getData($(e.target));
 
                 sendData('/contactus', data, function(res) {
                     $('.contact-form-input').each(function(_, el) {
@@ -826,18 +885,25 @@
                     });
                     window.alert('Thanks for contacting us. We\'ll contact you shortly.')
                 });
+
+                e.target.reset();
             });
 
             suscribeForm.submit(function(e) {
                 e.preventDefault();
-                var data = getData(suscribeForm);
+                var data = getData($(e.target));
+                // console.log();
+                // console.log(data);
+                // console.log(suscribeForm.)
 
                 sendData('/suscribe', data, function(res) {
                     $('.submit-email').val('');
                     if (res.indexOf('suscribed!') != -1) window.alert('GrowItIn Inc.\nThanks for suscribing!');
                     else window.alert('Couldn\'t suscribe. Please try with another email or try later. We will appreciate it.')
 
-                })
+                });
+
+                e.target.reset();
             });
         });
     </script>

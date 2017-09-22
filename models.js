@@ -9,4 +9,11 @@ const email = mongoose.Schema({
     }
 });
 
+const contact = mongoose.Schema({
+    name : types.String,
+    email: types.String,
+    message : types.String,
+});
+
 exports.Email = mongoose.model('email', email);
+exports.Contact = mongoose.model('contact', contact);

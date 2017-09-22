@@ -1,3 +1,7 @@
+* {
+    z-index : 1;
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -282,7 +286,7 @@ label {
 
 .banner-text-info {
     width: 38%;
-    margin: 14em auto 0;
+    margin: 10vh auto 0;
     text-align: center;
     background: rgba(0, 0, 0, 0.46);
     padding: 4em 3em;
@@ -344,7 +348,7 @@ label {
 .callbacks_nav {
     position: absolute;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    top: 45%;
+    top: 55%;
     left: 17%;
     z-index: 3;
     opacity: .7;
@@ -1408,9 +1412,9 @@ section.socialul li {
     filter: alpha(opacity=0);
 }
 
-.news-section {
+/* .news-section {
     background: #eee;
-}
+} */
 
 #what-to-grow {
     padding: 3.8em;
@@ -1443,6 +1447,7 @@ SHOP SECTION
 
 #shop {
     padding : 3.9em 0;
+    background : #eee;
 }
 
 #shop .tittle {
@@ -1483,6 +1488,72 @@ SHOP SECTION
     box-shadow : 0 0 15px #f44236;
 }
 
+
+#shop-modal {
+    top : 0;
+    position : fixed;
+    height : 100vh;
+    width : 100vw;
+    background : rgba(0,0,0,0.4);
+}
+
+.hidden {
+    /* display : none; */
+}
+
+.flex-me.diy {
+    height : 35vh
+}
+
+.flex-me {
+    height : 60vh;
+    display : flex;
+    flex-direction : column;
+    justify-content : space-around;
+    align-items : center;
+}
+
+.flex-me form {
+    width : 80%;
+}
+
+.flex-me h2 {
+    text-align : center;
+}
+
+.flex-me p {
+    padding : 15px;
+    text-align : justify;
+}
+
+.modal-header.no-border {
+    border : none;
+}
+
+.modal-header input {
+    height : 35px;
+    display : inline-block;
+    box-sizing: border-box;
+}
+
+.modal-header input[type='email']{
+    border : 1px solid #cecece;
+    width : 80%;
+}
+
+.modal-header input[type='submit'] {
+    background : #f44236;
+    border : none;
+    color : white;
+    width : 20%;
+
+    /* margin-left : 2.5%; */
+}
+
+.modal-header input[type='submit']:hover {
+    background : #080808;
+    color : #f44236;
+}
 /* #shop .shop-modal[data-val='diy']:hover::after {
     color : white;
     content : 'DIY';
@@ -1505,7 +1576,7 @@ SHOP SECTION
         top : 50px;
         content : '';
         position : absolute;
-        border-right : 1px solid #eee;
+        border-right : 1px solid #ccc;
     }
     .navbar-default {
         float: left;
@@ -1516,7 +1587,7 @@ SHOP SECTION
 
 @media(max-width: 1440px) {
     .center-container {
-        padding: 0em 0em 12em;
+        padding: 0em 0em 5vh;
     }
     .nav>li>a {
         padding: 14px 25px;
@@ -1525,7 +1596,7 @@ SHOP SECTION
         font-size: 3.2em;
     }
     .banner-text-info {
-        margin: 12em auto 0;
+        margin: 10vh auto 0;
         width: 41%;
     }
     h3.top-about,
@@ -1551,7 +1622,7 @@ SHOP SECTION
         font-size: 2.8em;
     }
     .center-container {
-        padding: 0em 0em 10em;
+        padding: 0em 0em 3em;
     }
     .banner-text h3.bnr-title {
         font-size: 2.8em;
@@ -1560,7 +1631,7 @@ SHOP SECTION
         padding: 4em 2em;
     }
     .banner-text-info {
-        margin: 10em auto 0;
+        margin: 8vh auto 0;
     }
     .about.juri-agileinfo,
     .services,
@@ -1621,7 +1692,7 @@ SHOP SECTION
         padding: 13px 0 5px;
     }
     .callbacks_nav {
-        top: 43%;
+        /* top: 55%; */
         left: 14%;
     }
     .callbacks_nav.next {
@@ -1726,7 +1797,7 @@ SHOP SECTION
 
 @media(max-width: 1024px) {
     .center-container {
-        padding: 0em 0em 8.5em;
+        padding: 0em 0em 15vh;
     }
     h3.top-about,
     h3.jrstitle,
@@ -1759,7 +1830,7 @@ SHOP SECTION
         margin-top: 1.5em;
     }
     .center-container {
-        padding: 0em 0em 8em;
+        padding: 0em 0em 15vh;
     }
     .col-md-6.about-img1 {
         float: left;
@@ -1905,7 +1976,7 @@ SHOP SECTION
         padding: 3.5em 1em;
     }
     .callbacks_nav {
-        top: 42%;
+        top: 45%;
         left: 10%;
     }
     .callbacks_nav.next {
@@ -1942,7 +2013,7 @@ SHOP SECTION
     .buy-section::before {
         top : 0;
         left: 10%;
-        border-top : 1px solid #eee;
+        border-top : 1px solid #ccc;
     }
     .logo-agileinfo h1 {
         width: 400px;
@@ -1966,7 +2037,7 @@ SHOP SECTION
         padding: 3.4em 1em;
     }
     .callbacks_nav {
-        top: 43%;
+        top: 45%;
     }
     h3.top-about,
     h3.jrstitle,
@@ -2269,6 +2340,19 @@ SHOP SECTION
         height : 88vh;
     }
 
+    .buy-section, .diy-section {
+        height : 220px;
+    }
+
+    #shop .shop-modal .vertical-align {
+        font-size : 0.65em;
+    }
+
+    #shop .shop-modal {
+        height : 120px;
+        width : 120px;
+    }
+
     .callbacks_nav {
         margin-top : 12%;
     }
@@ -2356,7 +2440,7 @@ SHOP SECTION
         width: 57%;
     }
     .center-container {
-        padding: 0em 0em 4.5em;
+        padding: 0em 0em 10vh;
     }
     .callbacks_nav {
         left: 8%;
@@ -2377,7 +2461,7 @@ SHOP SECTION
         font-size: 0.85em;
     }
     .callbacks_nav {
-        top: 43%;
+        top: 30%;
     }
     .col-news-top .date-in .month-in {
         /* margin-top: -57px; */
