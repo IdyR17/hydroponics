@@ -2341,7 +2341,7 @@ SHOP SECTION
 @media(max-width: 600px) {
     [id^=callbacks1]{
         margin-top :10%;
-        height : 88vh;
+        /* height : 88vh; */
     }
 
     .buy-section, .diy-section {
@@ -2358,7 +2358,7 @@ SHOP SECTION
     }
 
     .callbacks_nav {
-        margin-top : 12%;
+        margin-top : 15%;
     }
 
     .logo-agileinfo h1 {
@@ -2440,7 +2440,7 @@ SHOP SECTION
         font-size: 0.6em;
     }
     .banner-text-info {
-        margin: 4.4em auto 0;
+        margin: 0 auto;
         width: 57%;
     }
     .center-container {
@@ -2509,12 +2509,16 @@ SHOP SECTION
 
 @media(max-width:540px) {
     [id^=callbacks1]{
-        margin-top :30%;
+        /* margin-top :30%; */
         height : 64vh;
     }
 
+    .banner-text-info {
+        margin : -10vh auto 0;
+    }
+
     .callbacks_nav {
-        margin-top : 12%;
+        margin-top : 14%;
     }
     .social-icons-agileits .glyphicon {
         font-size: 1.4em;
